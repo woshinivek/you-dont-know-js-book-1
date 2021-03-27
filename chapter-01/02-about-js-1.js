@@ -29,16 +29,18 @@
 // a = undefined;
 // console.log("undefined: ", typeof a);
 
+let key = "Hello meybi";
+
 const obj = {
-  a: "Hello",
+  "Hello meybi": "a guang",
   b: 42,
   c: true,
 };
 
-console.log(obj);
+// console.log(obj);
 
-const objA = "a";
-console.log(objA);
+// console.log(obj.a);
+console.log(obj[key]);
 
 // const objA = {
 //   a: 2,
@@ -58,12 +60,12 @@ console.log(objA);
 
 // console.log(key);
 
-let fruit = prompt("Введи фрукт");
-let quantity = Number(prompt("введи количество"));
+// let fruit = prompt("Введи фрукт");
+// let quantity = Number(prompt("введи количество"));
 
-const bag = {
-  [fruit]: quantity,
-};
+// const bag = {
+//   [fruit]: quantity,
+// };
 
-console.log(`Вы добавили ${fruit} в количестве ${bag.quantity} штук`);
-console.log(bag.apple);
+// console.log(`Вы добавили ${fruit} в количестве ${bag.quantity} штук`);
+// console.log(bag.apple);
