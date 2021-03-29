@@ -29,18 +29,20 @@
 // a = undefined;
 // console.log("undefined: ", typeof a);
 
-let key = "Hello meybi";
+// -------ОБЪЕКТЫ-------
 
-const obj = {
-  "Hello meybi": "a guang",
-  b: 42,
-  c: true,
-};
+// let key = "Hello meybi";
+
+// const obj = {
+//   "Hello meybi": "a guang",
+//   b: 42,
+//   c: true,
+// };
 
 // console.log(obj);
 
 // console.log(obj.a);
-console.log(obj[key]);
+// console.log(obj[key]);
 
 // const objA = {
 //   a: 2,
@@ -69,3 +71,38 @@ console.log(obj[key]);
 
 // console.log(`Вы добавили ${fruit} в количестве ${bag.quantity} штук`);
 // console.log(bag.apple);
+
+// -------МАССИВЫ-------
+
+const simpleArray = ["hello, ni hao", 155, true, ""];
+
+if (simpleArray[2]) {
+  console.log("Из IF: ", simpleArray[0]);
+  console.log("А длина этого массива: ", simpleArray.length);
+}
+
+console.log(simpleArray[0]);
+console.log(simpleArray[1]);
+
+console.table(simpleArray);
+
+// -------ФУНКЦИИ-------
+
+// const foo = function () {
+//   return `Значение свойства number ${number}`;
+// };
+
+// foo.number = 30;
+
+// console.log(foo.number);
+// console.dir(foo);
+
+// ------МЕТОДЫ ВСТРОЕННЫХ ТИПОВ------
+
+// const a = 42;
+// const b = "Hello";
+
+// console.log(b.toUpperCase());
+// console.log(a);
+
+// console.log(typeof b);
