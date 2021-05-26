@@ -74,17 +74,38 @@
 
 // -------МАССИВЫ-------
 
-const simpleArray = ["hello, ni hao", 155, true, ""];
+// const simpleArray = ["hello, ni hao", 155, true, ""];
 
-if (simpleArray[2]) {
-  console.log("Из IF: ", simpleArray[0]);
-  console.log("А длина этого массива: ", simpleArray.length);
-}
+// if (simpleArray[2]) {
+//   console.log("Из IF: ", simpleArray[0]);
+//   console.log("А длина этого массива: ", simpleArray.length);
+// }
 
-console.log(simpleArray[0]);
-console.log(simpleArray[1]);
+// console.log(simpleArray[0]);
+// console.log(simpleArray[1]);
 
-console.table(simpleArray);
+// console.table(simpleArray);
+
+// const a = [1, 2, 3];
+// console.log(a);
+// console.log(typeof a);
+
+// const b = String(a);
+// console.log(b);
+
+const matrix = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+];
+
+const greeting = matrix[2][2];
+console.log(`${greeting}, earthlings!`);
+
+console.log(matrix[1][2]);
+console.log(matrix[2][1]);
+
+
 
 // -------ФУНКЦИИ-------
 
